@@ -4,7 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text style={styles.bioElement}>
+        Coucou j'ai réussi mes premiéres lignes de code{' '}
+      </Text>
+      <Text style={styles.bioElement}>Je me présente :</Text>
+      <Text style={styles.bioElement}> Prénom : Loubna</Text>
+      <Text style={styles.bioElement}>Ville : Cholet</Text>
+      <Text style={styles.bioElement}> Genre : Féminin</Text>
       <StatusBar style="auto" />
     </View>
   );
